@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 
 
-df = pd.read_csv("D:\ASEB\Semester 4\ML\patches_gabor_15816_1 3.csv")
+df = pd.read_csv("C:\Users\heman\OneDrive\Documents\patches_gabor_15816_1 3 (1).csv")
 
 X = df.iloc[:, 1:-1].values  # Exclude 'ImageName' and 'class' columns
 y = df.iloc[:, -1].values
